@@ -9,8 +9,8 @@ Fonts are separated by a | */
   --primary-color: #164365   ;
   --secondary-color: #7bc5d6 ;
   --accent1-color: #c1e4ec;
-  --accent2-color: #ebbab9;
-  --accent3-color:  #e5d1d0;
+  --accent2-color: #FBE07A;
+  --accent3-color:  #FBE89D;
 
   /* change the values below to your chosen font(s) */
   --heading-font: 'IBM Plex Sans', sans-serif;
@@ -23,9 +23,9 @@ Fonts are separated by a | */
   --paragraph-color-on-color: #c1e4ec; /* paragraph text on a colored background */ 
   --paragraph-background-color: #164365  ;
   --nav-link-color: #164365;
-  --nav-background-color: #7bc5d6;
-  --nav-hover-link-color: #c1e4ec;
-  --nav-hover-background-color: #164365;
+  --nav-background-color: #FBE07A;
+  --nav-hover-link-color: #7bc5d6;
+  --nav-hover-background-color: #FBE89D;
 }
 
 
@@ -41,7 +41,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  max-width: 600px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
