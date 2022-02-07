@@ -4,11 +4,6 @@
     --accent1-color: #c1e4ec;
     --accent2-color: #FBE07A;
     --accent3-color:  #FBE89D;
-  
-    --nav-link-color: #164365;
-    --nav-background-color: #FBE07A;
-    --nav-hover-link-color: #7bc5d6;
-    --nav-hover-background-color: #FBE89D;
   }
 
 #content{
@@ -44,15 +39,17 @@ nav a:hover{
     min-width: 120px;
 }
 
-/*.home-titile{
+.home-title{
     color: oldlace;
-}*/
+    font-size: 170px;
+    text-align: center;
+}
 
-#hero-msg h1{
+/*#hero-msg h1{
     font-size: 170px;
     text-align: center;
     color: oldlace;
-}
+}*/
 
 #hero-msg h4{
     font-size: 80px;
@@ -60,8 +57,9 @@ nav a:hover{
     color: oldlace;
 }
 
-.botton-box{
-    text-align: center;
+.button-box{
+    
+    font-size: 30px;
 }
 
 .book{
