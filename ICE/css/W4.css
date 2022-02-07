@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+}
+
+#top{
+    color: white;
+}
+
+#top h1{
+    font-family: Arial;
+    text-align: center;
+}
+
+#top p{
+    text-align: center;
+    
+}
+
+#gospel li{
+    font-weight: bold;
+    font-family: Arial;
+    padding: 0.5em 0; /* top/bottom left/right */
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 75%;
+}
+
+
+
+.bottom p{
+    color: white;
+    font-size: x-large;
+}
+
+.bottom figcaption{
+    text-align: center;
+}
