@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Roboto+Condensed&display=swap');
+
 :root {
     --primary-color: #164365;
     --secondary-color: #7bc5d6;
@@ -16,9 +18,18 @@ header{
     background-color: var(--primary-color);
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
+img .logo{
+    size: 80px;
+}
+
 nav{
     background-color: var(--accent2-color);
     font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
     min-width: 120px;
     padding: 20px;
 }
@@ -27,6 +38,7 @@ nav a{
     text-align: center;
     color: var(--primary-color);
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
@@ -40,9 +52,11 @@ nav a:hover{
 }
 
 .home-title{
+    font-family: "IBM Plex Sans", "Roboto Condensed", sans-serif;
     color: oldlace;
-    font-size: 170px;
+    font-size: 2em;
     text-align: center;
+    margin-top: 10px;
 }
 
 /*#hero-msg h1{
@@ -52,20 +66,24 @@ nav a:hover{
 }*/
 
 #hero-msg h4{
-    font-size: 80px;
+    font-size: 1.5em;
+    font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: oldlace;
 }
 
 .button-box{
-
-    font-size: 30px;
+    text-align: center;
 }
 
 .book{
+    font-size: 18px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover{
@@ -74,14 +92,18 @@ nav a:hover{
 }
 
 .join{
-    background-color: var(--accent2-color);
+    background-color: var(--accent3-color);
     color: var(--primary-color);
+    font-family: "Roboto Condensed", sans-serif;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover{
     background-color: var(--accent3-color);
-    color: oldlace;
+    color: var(--secondary-color);
 }
 
 main section{
@@ -89,12 +111,17 @@ main section{
 }
 
 body{
+    font-size: 22px;
     background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
 
 h2{
     font-size: 50px;
+    font-family: "Roboto Condensed", sans-serif;
     color: oldlace;
+    margin: 0;
 }
 
 .logo img{
@@ -103,27 +130,58 @@ h2{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.rivers-card{
+    margin: 200px 0;
+}
+
+.camping-card{
+    margin: 200px 0;
+}
+
+.rapids-card{
+    margin: 200px 0;
 }
 
 #background{
-    background-color: var(--primary-color);
+    background-color: oldlace;
     height: 725px;
 }
 
 .msg{
+    line-height: 1.5em;
     background-color: var(--accent2-color);
+    padding: 35px;
 }
 
 .msg h2{
+    font-family: "IBM Plex Sans", "Roboto Condensed", sans-serif;
     color: black;
 }
 
 .msg p{
+    font-size: .8em;
+    font-family: "Roboto Condensed", sans-serif;
     color: black;
+    padding-bottom: 15px;
 }
 
 footer{
+    margin-top: 200px;
     background-color: var(--primary-color);
+    font-family: "Roboto Condensed";
+    padding: 25px 50px;
+
 }
 
 footer h3{
@@ -139,4 +197,8 @@ footer a{
 footer a:hover{
     color: oldlace;
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
