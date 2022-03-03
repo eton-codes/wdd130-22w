@@ -51,6 +51,10 @@ nav a:hover{
     min-width: 120px;
 }
 
+.rafting{
+    width: 1600px;
+}
+
 .home-title{
     font-family: "IBM Plex Sans", "Roboto Condensed", sans-serif;
     color: oldlace;
@@ -157,8 +161,7 @@ main section img{
 }
 
 .mountains{
-    width: auto;
-    height: auto;
+    width: 1600px;
 }
 
 .msg{
